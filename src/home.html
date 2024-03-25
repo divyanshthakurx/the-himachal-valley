@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/output.css" rel="stylesheet">
+    <title>The Himachal Valley</title>
+</head>
+<body>
+    
+    <header class="bg-cover bg-center h-screen w-[100%] bg-no-repeat relative flex justify-center items-center" style="background-image: url(./img/home-hero.png)"> 
+
+        <div class="p-2 fixed dark:text-gray-800 w-full z-10 backdrop-opacity-15 border-b border-black backdrop-blur-lg bg-black/60 top-0">
+            <div class="container flex justify-between h-16 mx-auto">
+                <a href="./home.html" aria-label="Back to homepage" class="flex items-center p-2">
+                    <img class="w-24 h-8" src="./img/logo.png"  alt="">
+                </a>
+                <ul class="items-stretch text-xl text-white hidden space-x-3 lg:flex">
+                    <li class="flex">
+                        <a href="./home.html" class="flex items-center px-4 -mb-1 hover:text-gray-300">Home</a>
+                    </li>
+                    <li class="flex">
+                        <a  href="./bike-rides/bike-riding.html" class="flex items-center px-4 -mb-1 hover:text-gray-300">Bike Rides</a>
+                    </li>
+                    <li class="flex">
+                        <a href="./tours/tours.html" class="flex items-center px-4 -mb-1 hover:text-gray-300">Tours</a>
+                    </li>
+                    <li class="flex">
+                        <a href="./about-us.html" class="flex items-center px-4 -mb-1 hover:text-gray-300">About Us</a>
+                    </li>
+                </ul>
+                <div class="items-center flex-shrink-0 hidden lg:flex">
+                    <a href="./contact.html" class="self-center px-8 py-3 align-middle font-semibold rounded dark:bg-[#013A6F] dark:text-white hover: hover:text-gray-300 hover:dark:bg-[rgba(1,58,111,0.69)]">Contact Us</a>
+                </div>
+                <button class="p-4 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 dark:text-white" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    
+        <div class="text-white text-center">
+            <h1 class="text-2xl font-medium md:text-4xl">Get Ready To Explore Valleys Of Himachal With Us </h1>
+            <p class="text-sm md:text-xl opacity-[0.7]">Partnering Riders since 2000</p>
+        </div>
+    
+    </header>
+
+    <section class="py-16 bg-gray-100">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl justify-center items-center lg:flex">
+            <div class="max-w-2xl mx-auto text-center">
+                <p class="font-medium text-lg">What Defines </p>
+                <h2 class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl">The Himachal valley </h2>
+                <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-black">With over 20 years of experience in curating unforgettable adventures, the himachal valley is your trusted companion in exploring the mesmerizing valleys of Himachal Pradesh.</p>
+                <p class="max-w-xl mx-auto mt-4 text-sm leading-relaxed text-gray-500">Our tours are meticulously planned and led by seasoned professionals, ensuring a seamless and safe journey. We believe in creating not just tours, but memories that last a lifetime.</p>
+            </div>
+    
+            <div class="max-w-5xl mx-auto mt-12 sm:mt-16">
+            <div class="grid grid-cols-1 gap-12 px-6 justify-items-center text-center lg:px-12 lg:grid-cols-2">
+            <div class="overflow-hidden bg-white rounded-xl w-[16rem]">         
+                <div class="p-6">
+                    <img src="./img/vector-helmet.png" class="flex-shrink-0 w-13 h-12 mx-auto">
+                    <p class="mt-6 text-lg font-medium text-gray-900">Safety  first Approach</p>
+                </div>
+            </div>
+            <div class="overflow-hidden bg-white rounded-xl">
+                <div class="p-6 w-[16rem]">
+                    <img src="./img/vector-map.png" class="flex-shrink-0 w-13 h-12 mx-auto text-gray-400">
+                    <p class="mt-6 text-lg font-medium text-gray-900">Carefully Devised Route</p>
+                </div>
+            </div>
+            <div class="overflow-hidden bg-white rounded-xl">
+                <div class="p-6 w-[16rem]">
+                    <img src="./img/vector-npc.png" class="flex-shrink-0 w-13 h-12 mx-auto text-gray-400">
+                    <p class="mt-6 text-lg font-medium text-gray-900">Friendly Guide</p>
+                </div>
+            </div>
+            <div class="overflow-hidden bg-white rounded-xl">
+                <div class="p-6 w-[16rem]">
+                    <img src="./img/vector-group.png" class="flex-shrink-0 w-13 h-12 mx-auto text-gray-400">
+                    <p class="mt-6 text-lg font-medium text-gray-900">Capable Team</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="pt-12 bg-gray-100 sm:py-16 lg:py-24">
+    <div class="pb-8 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 gap-4 justify-items-center px-6 text-center md:px-0 md:grid-cols-4">
+            <div class="overflow-hidden bbg-gray-100 h-[10rem] w-[10rem] border border-black border-dotted rounded-full flex-col justify-center items-center">
+                <div class="p-6">
+                    <div class="flex-shrink-0 font-medium text-3xl mx-auto text-[#05203F]">20+</div>
+                    <p class="mt-4 text-md font-medium text-gray-900">Years Of Experience</p>
+                </div>
+            </div>
+
+            <div class="overflow-hidden bg-gray-100 h-[10rem] w-[10rem] border border-black border-dotted rounded-full flex-col justify-center items-center">
+                <div class="p-6">
+                    <div class="flex-shrink-0 font-medium text-3xl mx-auto text-[#05203F]">1K</div>
+                    <p class="mt-4 text-md font-medium text-gray-900">Travelers Satisfied</p>
+                </div>
+            </div>
+
+            <div class="overflow-hidden bg-gray-100 h-[10rem] w-[10rem] border border-black border-dotted rounded-full flex-col justify-center items-center">
+                <div class="p-6">
+                    <div class="flex-shrink-0 font-medium text-3xl mx-auto text-[#05203F]">100+</div>
+                    <p class="mt-4 text-md font-medium text-gray-900">Trips Organised</p>
+                </div>
+            </div>
+
+            <div class="overflow-hidden bg-gray-100 h-[10rem] w-[10rem] border border-black border-dotted rounded-full flex-col justify-center items-center">
+                <div class="p-6">
+                    <div class="flex-shrink-0 font-medium text-3xl mx-auto text-[#05203F]">15+</div>
+                    <p class="mt-4 text-md font-medium text-gray-900">Team Of Expert</p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    </section>
+
+    <section class="py-16    bg-[#022648] sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+
+            <div class="flex-1 text-center lg:text-left pb-8">
+                <h2 class="text-3xl text-center font-normal leading-tight text-white sm:text-4xl lg:text-5xl">Himachal Tours Pacakages for 2024</h2>
+            </div>
+    
+            <div class="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
+                <div class="overflow-hidden bg-white rounded shadow">
+                    <div class="p-5">
+                        <div class="relative">
+                            <a href="./bike-rides/rides/shimla-leh-manali.html" title="" class="block aspect-w-4 aspect-h-3">
+                                <img class="object-cover w-full h-full" src="./img/manali-tour.png" alt="" />
+                            </a>
+    
+                            <div class="absolute top-4 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#E44E6C] rounded-full"> starting From - 13,500 </span>
+                            </div>
+                            <div class="absolute top-16 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#013A6F] rounded-full"> 13 Days </span>
+                            </div>
+                        </div>
+                        <p class="mt-5 text-3xl text-center font-semibold">
+                            <a href="./bike-rides/rides/shimla-leh-manali.html" title="" class="text-black"> Manali Motorcycle Tour </a>
+                        </p>
+                        <p class="mt-4 text-center text-xl text-gray-600">Shimla - Leh - Manali </p>
+                    </div>
+                    <div class="flex justify-center content-center">
+                        <a href="./bike-rides/rides/shimla-leh-manali.html" class="bg-[#3B7ECD] text-white align-middle border-black px-4 py-2 rounded-lg mb-6 hover:bg-[#3b7fcda7]">Details</a>
+                    </div>
+                </div>
+    
+                <div class="overflow-hidden bg-white rounded shadow">
+                    <div class="p-5">
+                        <div class="relative">
+                            <a href="./bike-rides/rides/dharamshala-jispa-leh.html" title="" class="block aspect-w-4 aspect-h-3">
+                                <img class="object-cover w-full h-full" src="./img/ladakh-tour-1.png" alt="" />
+                            </a>
+    
+                            <div class="absolute top-4 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#E44E6C] rounded-full"> starting From - 13,500 </span>
+                            </div>
+                            <div class="absolute top-16 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#013A6F] rounded-full"> 13 Days </span>
+                            </div>
+                        </div>
+                        <p class="mt-5 text-3xl text-center font-semibold">
+                            <a href="./bike-rides/rides/dharamshala-jispa-leh.html" title="" class="text-black"> Ladakh Motorcycle Tour </a>
+                        </p>
+                        <p class="mt-4 text-center text-xl text-gray-600">Dharamshala - Jispa - Leh </p>
+                    </div>
+                    <div class="flex justify-center content-center">
+                        <a href="./bike-rides/rides/dharamshala-jispa-leh.html" class="bg-[#3B7ECD] text-white align-middle border-black px-4 py-2 rounded-lg mb-6 hover:bg-[#3b7fcda7]">Details</a>
+                    </div>
+                </div>
+    
+                <div class="overflow-hidden bg-white rounded shadow">
+                    <div class="p-5">
+                        <div class="relative">
+                            <a href="./bike-rides/rides/birbilling-leh-manali.html" title="" class="block aspect-w-4 aspect-h-3">
+                                <img class="object-cover w-full h-full" src="./img/ladakh-tour-2.png" alt="" />
+                            </a>
+    
+                            <div class="absolute top-4 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#E44E6C] rounded-full"> starting From - 13,500 </span>
+                            </div>
+                            <div class="absolute top-16 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#013A6F] rounded-full"> 13 Days </span>
+                            </div>
+                        </div>
+                        <p class="mt-5 text-3xl text-center font-semibold">
+                            <a href="./bike-rides/rides/birbilling-leh-manali.html" title="" class="text-black"> Ladakh Motorcycle Tour </a>
+                        </p>
+                        <p class="mt-4 text-center text-xl text-gray-600">Bir Billing - Manali - Leh </p>
+                    </div>
+                    <div class="flex justify-center content-center">
+                        <a href="./bike-rides/rides/birbilling-leh-manali.html" class="bg-[#3B7ECD] text-white align-middle border-black px-4 py-2 rounded-lg mb-6 hover:bg-[#3b7fcda7]">Details</a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-100 sm:py-16 lg:py-24">
+            <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div class="max-w-2xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold leading-tight text-[#0C386C] sm:text-4xl lg:text-5xl">Reviews That Speak Satisfaction.</h2>
+                </div>
+        
+                <div class="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">
+                    <div class="overflow-hidden bg-white rounded-md shadow">
+                        <div class="px-8 py-12">
+                            <div class="relative w-24 h-24 mx-auto">
+                                <img class="relative object-cover w-24 h-24 mx-auto rounded-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-1.jpg" alt="" />
+                                <div class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7">
+                                    <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <blockquote class="mt-7">
+                                <p class="text-lg text-black">“officia consequat duis enim velit mollit. Exercitation veniam consequat”</p>
+                            </blockquote>
+                            <p class="text-base font-semibold tex-tblack mt-9">Jenny Wilson</p>
+                            <!-- <p class="mt-1 text-base text-gray-600">Project Manager at Microsoft</p> -->
+                        </div>
+                    </div>
+        
+                    <div class="overflow-hidden bg-white rounded-md shadow">
+                        <div class="px-8 py-12">
+                            <div class="relative w-24 h-24 mx-auto">
+                                <img class="relative object-cover w-24 h-24 mx-auto rounded-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-2.jpg" alt="" />
+                                <div class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7">
+                                    <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <blockquote class="mt-7">
+                                <p class="text-lg text-black">“Amet mienim velit mollit. Exercitation veniam consequat”</p>
+                            </blockquote>
+                            <p class="text-base font-semibold tex-tblack mt-9">Robert Fox</p>
+                            <!-- <p class="mt-1 text-base text-gray-600">Founder at Brain.co</p> -->
+                        </div>
+                    </div>
+        
+                    <div class="overflow-hidden bg-white rounded-md shadow">
+                        <div class="px-8 py-12">
+                            <div class="relative w-24 h-24 mx-auto">
+                                <img class="relative object-cover w-24 h-24 mx-auto rounded-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-3.jpg" alt="" />
+                                <div class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7">
+                                    <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M20.309 17.708C22.196 15.66 22.006 13.03 22 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292zm-11.007 0C11.19 15.66 10.999 13.03 10.993 13V5a1 1 0 0 0-1-1h-6c-1.103 0-2 .897-2 2v7a1 1 0 0 0 1 1h3.078a2.89 2.89 0 0 1-.429 1.396c-.508.801-1.465 1.348-2.846 1.624l-.803.16V20h1c2.783 0 4.906-.771 6.309-2.292z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <blockquote class="mt-7">
+                                <p class="text-lg text-black">“Amt duis enim velit mollit. Exercitation veniam consequat”</p>
+                            </blockquote>
+                            <p class="text-base font-semibold tex-tblack mt-9">Kristin Watson</p>
+                            <!-- <p class="mt-1 text-base text-gray-600">UX Designer at Google</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-14 px-4 bg-gray-100">
+
+        <div class="border border-black rounded-2xl py-8 px-8 justify-center items-center lg:flex">
+
+            <div class="mx-auto m-8" style="overflow:hidden;max-width:100%;width:400px;height:370px;">
+                <iframe width="400" height="370" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=400&amp;height=370&amp;hl=en&amp;q=Brij%20Mohan%20niwas%20airport%20road%20Shimla+(Brij%20Mohan%20niwas%20airport%20road,%20Totu,%20Shimla,%20Himachal%C2%A0Pradesh,%20171005%20)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.versicherungen.at/cyber-versicherung/'>Cyber-Versicherungen</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=867d7b22f2940b7908e8bc90a3cce5ca019966fb'></script>
+            </div>
+                        
+            <div class="py-8 max-w-md mx-auto">
+            <h3 class="text-2xl font-medium mb-4">Book Your Ride</h3>
+            <p class="text-base w-[80%]">Drop us a message to know more about your adventure</p>
+                <form class="max-w-md mx-auto pt-8">
+                <div class="grid md:grid-cols-2 md:gap-6">
+                <div class="relative z-0 w-full mb-5 group">
+                    <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Full name</label>
+                </div>     
+                </div>
+                <div class="relative z-0 w-full mb-5 group">
+                    <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                </div>
+                <div class="grid md:grid-cols-2 md:gap-6">
+                <div class="relative z-0 w-full mb-5 group">
+                    <input type="tel" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone number</label>
+                </div>
+                </div>
+                <div class="relative z-0 w-full mb-5 group">
+                    <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                </div>
+                <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                </form>
+            </div>
+
+            
+        </div>  
+
+        </section>
+                        
+       <!-- Footer container -->
+       <footer
+       class="bg-zinc-50 text-center text-surface/75 dark:bg-[#05203F] dark:text-white/75 lg:text-left bottom-0">
+       <div
+       class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
+       <div class="me-12 hidden lg:block">
+           <span>Get connected with us on social networks:</span>
+       </div>
+       <!-- Social network icons container -->
+       <div class="flex justify-center">
+           <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+           <svg
+               xmlns="http://www.w3.org/2000/svg"
+               fill="currentColor"
+               viewBox="0 0 320 512">
+               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+               <path
+               d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+           </svg>
+           </a>
+           <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4 ">
+           <svg
+               xmlns="http://www.w3.org/2000/svg"
+               fill="currentColor"
+               viewBox="0 0 512 512">
+               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+               <path
+               d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+           </svg>
+           </a>
+           <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+           <svg
+               xmlns="http://www.w3.org/2000/svg"
+               fill="currentColor"
+               viewBox="0 0 488 512">
+               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+               <path
+               d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+           </svg>
+           </a>
+           <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+           <svg
+               xmlns="http://www.w3.org/2000/svg"
+               fill="currentColor"
+               viewBox="0 0 448 512">
+               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+               <path
+               d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+           </svg>
+           </a>
+           <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+           <svg
+               xmlns="http://www.w3.org/2000/svg"
+               fill="currentColor"
+               viewBox="0 0 448 512">
+               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+               <path
+               d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+           </svg>
+           </a>
+           <a href="#!" class="[&>svg]:h-4 [&>svg]:w-4">
+           <svg
+               xmlns="http://www.w3.org/2000/svg"
+               fill="currentColor"
+               viewBox="0 0 496 512">
+               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+               <path
+               d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+           </svg>
+           </a>
+       </div>
+       </div>
+   
+       <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. -->
+       <div class="mx-6 py-10 text-center md:text-left">
+       <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+           <!-- TW Elements section -->
+           <div class="">
+           <div class="mb-4 flex items-center justify-center font-semibold uppercase">
+               <img class="w-40 h-14" src="./img/Logo.png" alt="The Himachal Valley Logo">
+               <!-- The Himachal Valley -->
+           </div>
+           <p class="text-center">
+               With over 20 years of experience in curating unforgettable adventures, our bike tour agency is your trusted companion in exploring the mesmerizing valleys of Himachal Pradesh.
+           </p>
+           </div>
+           <!-- Products section -->
+           <div>
+           <h6
+               class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+               Site Map
+           </h6>
+           <p class="mb-4">
+               <a href="../home.html">Home</a>
+           </p>
+           <p class="mb-4">
+               <a href="../bike-rides/bike-riding.html">Bike Riding</a>
+           </p>
+           <p class="mb-4">
+               <a href="../tours/tours.html">Tours</a>
+           </p>
+           <p>
+               <a href="../about-us.html">About Us</a>
+           </p>
+           </div>
+           <!-- Useful links section -->
+           <div>
+           <h6
+               class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+               Bike Rides
+           </h6>
+           <p class="mb-4">
+               <a href="../bike-rides/rides/dharamshala-jispa-leh.html">Ladakh</a>
+           </p>
+           <p class="mb-4">
+               <a href="../bike-rides/rides/shimla-leh-manali.html">Manali</a>
+           </p>
+           <p class="mb-4">
+               <a href="../bike-rides/rides/birbilling-leh-manali.html">Bir Billing</a>
+           </p>
+           </div>
+           <!-- Contact section -->
+           <div>
+           <h6
+               class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+               Contact
+           </h6>
+           <p class="mb-4 flex items-center justify-center md:justify-start">
+               <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+               <svg
+                   xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 24 24"
+                   fill="currentColor">
+                   <path
+                   d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                   <path
+                   d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+               </svg>
+               </span>
+               Brij Mohan niwas airport road, Totu, Shimla, Himachal Pradesh, 171005
+           </p>
+           <p class="mb-4 flex items-center justify-center md:justify-start">
+               <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+               <svg
+                   xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 24 24"
+                   fill="currentColor">
+                   <path
+                   d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                   <path
+                   d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+               </svg>
+               </span>
+               thehimachalvalley@gmail.com
+           </p>
+           <p class="mb-4 flex items-center justify-center md:justify-start">
+               <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+               <svg
+                   xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 24 24"
+                   fill="currentColor">
+                   <path
+                   fill-rule="evenodd"
+                   d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                   clip-rule="evenodd" />
+               </svg>
+               </span>
+               +91 78078 90407
+           </p>
+           
+           </div>
+       </div>
+       </div>
+   
+       <!--Copyright section-->
+       <div class="bg-[#031C39] p-6 text-center">
+       <span>© 2024 Copyright. All rights reserved:</span>
+       <a class="font-semibold" href="https://thehimachalvalley.com/"
+           >The Himachal Valley</a>
+       </div>
+       <div class="bg-[#031C39] p-6 text-center">
+           <a class="font-semibold" href="https://digitcrib.com/"
+               >Made by <span class="hover:text-[#22FFFF]">DigitCrib</span></a>
+       </div>
+       </footer>
+
+
+    <script src="../src/script.js"></script>
+</body>
+</html>
