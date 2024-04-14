@@ -3,26 +3,558 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glass Morphism Navbar</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        .glass-morphism {
-            backdrop-filter: blur(10px);
-            background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value for transparency */
-        }
-    </style>
+
+    <!-- favicons -->
+    <link rel="icon" href="../../img/fav/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../img/fav/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="../../img/fav/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../../img/fav/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../img/fav/android-chrome-192x192.png" sizes="192x192">
+
+    <link href="../../output.css" rel="stylesheet">
+    <title>Tours</title>
 </head>
-<body class="bg-gray-200">
-    <nav class="glass-morphism p-4">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="text-white font-semibold text-lg">Logo</div>
-            <ul class="flex space-x-4">
-                <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
-                <li><a href="#" class="text-white hover:text-gray-300">About</a></li>
-                <li><a href="#" class="text-white hover:text-gray-300">Services</a></li>
-                <li><a href="#" class="text-white hover:text-gray-300">Contact</a></li>
+<body >
+
+    <header class="bg-cover bg-center h-screen w-[100%] bg-no-repeat relative flex justify-center items-center mb-16" style="background-image: url(../../img/shimla-leh-manali.jpg)"> 
+
+    <div class="p-2 fixed dark:text-gray-800 w-full z-10 backdrop-opacity-15 border-b border-black backdrop-blur-lg bg-black/60 top-0">
+        <div class="container flex justify-between h-16 mx-auto">
+            <a href="../../home.html" aria-label="Back to homepage" class="flex items-center p-2">
+                <img class="w-24 h-8" src="../../img/logo.png"  alt="logo">
+            </a>
+            <ul class="items-stretch text-xl text-white hidden space-x-3 lg:flex">
+                <li class="flex">
+                    <a href="../../home.html" class="flex items-center px-4 -mb-1 hover:text-gray-300">Home</a>
+                </li>
+                <li class="flex">
+                    <a href="../../bike-rides/bike-riding.html" class="flex items-center px-4 -mb-1 hover:text-gray-300">Bike Rides</a>
+                </li>
+                <li class="flex">
+                    <a href="../../tours/tours.html" class="flex items-center px-4 -mb-1 hover:text-gray-300">Tours</a>
+                </li>
+                <li class="flex">
+                    <a href="../../about-us.html" class="flex items-center px-4 -mb-1 hover:text-gray-300">About Us</a>
+                </li>
             </ul>
+            <div class="items-center flex-shrink-0 hidden lg:flex">
+                <a href="../../contact.html" class="self-center px-8 py-3 align-middle font-semibold rounded dark:bg-[#013A6F] dark:text-white hover: hover:text-gray-300 hover:dark:bg-[rgba(1,58,111,0.69)]">Contact Us</a>
+            </div>
+            <button class="p-4 lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 dark:text-white" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
         </div>
-    </nav>
+    </div>
+
+    <div class="text-white text-center">
+        <h1 class="text-xl md:text-6xl md:font-semibold mb-2">Into The Valleys of Himachal</h1>
+        <p class="text-sm md:text-2xl text-[#dfdfdf]">Partnering Riders since 2000</p>
+    </div>
+
+    </header>
+
+    <section class="px-16">
+
+        <div class=" py-8">
+            <h2 class="font-bold mb-4 text-xl md:text-5xl">Manali Bike tour | Shimla - leh - manali</h2>
+            <div class="flex-col text-sm md:text-xl font-semibold mb-4 ">
+                <div class="flex mb-4">
+                    <img class="w-32" src="../../img/rating.svg" alt="">
+                    <p class=" text-gray-600"> (99+)</p>
+                </div>
+                <div class="flex">
+                    <div class=" flex ">
+                        <img class="w-7" src="../../img/time.png" alt="">
+                        <p class="text-gray-600 "> 14D/13N</p>
+                    </div>
+                    <div class="pl-4 flex">
+                        <img class="w-7" src="../../img/pin-round.png" alt="">
+                        <p class=" text-gray-600">Leh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex text-base md:text-3xl font-semibold">
+                <p class="line-through text-gray-600">&#x20B9; 1,50,000/</p>
+                <p class="pl-4 text-[#00AA30]">&#x20B9; 1,35,000/-</p>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <div class="font-bold text-xl md:text-4xl">
+                <h3>Requirements</h3>
+            </div>
+
+            <div class="pt-1 sm:py-16 lg:py-12">
+            <div class=" max-w-5xl mx-auto">
+                <div class="grid grid-cols-1 gap-4 justify-items-center px-6 text-center md:px-0 md:grid-cols-3">
+                    <div class="overflow-hidden bbg-gray-100 h-[15rem] w-[15rem] flex flex-col justify-center items-center">
+                        <div class="p-6 flex flex-col justify-center items-center">
+                            <img src="../../img/gp.jpg" alt="">
+                            <p class="mt-4 text-xl font-bold text-gray-900">Minimum 10 Riders</p>
+                        </div>
+                    </div>
+        
+                    <div class="overflow-hidden bbg-gray-100 h-[15rem] w-[15rem] flex flex-col justify-center items-center">
+                        <div class="p-6 flex flex-col justify-center items-center">
+                            <img  src="../../img/helm.jpg" alt="">
+                            <p class="mt-4 text-xl font-bold text-gray-900">Riding Gears</p>
+                        </div>
+                    </div>
+        
+                    <div class="overflow-hidden bbg-gray-100 h-[15rem] w-[15rem] flex flex-col justify-center items-center">
+                        <div class="p-6 flex flex-col justify-center items-center">
+                            <img  src="../../img/dl.jpg" alt="">
+                            <p class="mt-4 text-xl font-bold text-gray-900">Driving License</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    
+    </section>
+
+    <section >
+
+        <div class="md:flex justify-evenly px-16 relative">
+
+            
+
+                <div class="text-left mb-12 md:mr-4  md:w-full lg:w-2/3">
+                    <div class="py-8 px-6 mx-auto mb-12 border border-black rounded-2xl">
+                    <h3 class="text-xl font-medium mb-4">Manali Bike tour | Highlights  </h3>
+
+                    <p class="text-lg font-medium mb-4">About the tour</p>
+                    <p class="text-lg mb-4">Embark on a transcendent journey spanning 13 nights and 14 days through the enchanting landscapes of Dharamshala, Chamba, Jispa, Zanskar, and Leh. This meticulously crafted itinerary promises an odyssey of discovery, blending the marvels of nature with the thrill of adventure.</p>
+
+                    
+                    <p class="text-lg font-medium mb-4">Quick Info</p>
+                    <ul class="list-disc list-outside text-base pb-4 pl-4">
+                        <li>Route: Chandigarh - Shimla - Sarhan - Chitkul - Kalpa - Kaza - Jispa - Leh - Jispa - Manali - Chandighar   </li>
+                        <li>Duration: 14 Days and 13 Nights</li>
+                        <li>Start Point: Chandighar 
+                        </li>
+                        <li>Endpoint: Chandighar</li>
+                    </ul>
+                    <p class="text-lg font-medium mb-4">Inclusion</p>
+                    <ul class="list-disc list-outside text-base pb-4 pl-4">
+                        <li>13 Nights accommodation in Hotel with Double Sharing Basses</li>
+                        <li>13 Breakfast, 13 Dinner in Hotel</li>
+                        <li>Backup by Tempo Traveler</li>
+                        <li>Royal Infield Himalayan</li>
+                        <li>13 Day Fuel</li>
+                        <li>Mechanic & spear part for Tour</li>
+                        <li>Fast Aid</li>
+                        <li>Toy train & bus tickets</li>
+                        
+                    </ul>
+                    <p class="text-lg font-medium pb-4">Exclusion</p>
+                    <ul class="list-disc list-outside text-base pl-4">
+                        <li>Any monument entry fees / camera fees.</li>
+                        <li>Any meal, which is not mentioned above.</li>
+                        <li>Any air / train fare.</li>
+                        <li>Permit Fee</li>
+                        <li>Full Riding kit</li>
+                        <li>Extra services to be cost</li>
+                        <li>5% GST</li>
+                        
+                    </ul>
+                    </div>
+
+                    <div class="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 border border-black rounded-2xl ">
+                        <h2 class="text-xl font-semibold sm:text-4xl mb-6">Manali Bike tour (Itinerary)</h2>
+                        <div class="space-y-4">
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 1: Chandigarh to Shimla</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">On arrival at Chandigarh Railway station/Airport drive Kalka Railway Station to toy train to Shimla. On arrival at Shimla Railway station drive to Hotel.
+                                </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 2: Shimla To Sarhan</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Sarhan lunch on the way. After check-in hotel visit Bhima Kali Temple. O/N at hotel.   </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 3: Sarhan To Sangla / Chitkul</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Sangla visit local & drive to Chitkul O/N At hotel. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 4: Chitkul to Kalpa</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Kalpa visit same local sight seeing. O/N at hotel. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 5: Kalpa To Kaza</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Kaza  lunch on the way visit Nako Lake, Tabo . O/N at hotel. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 6: Kaza Local</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to local sight seeing (Kee, Kibber, Comic) </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 7: Kaza to Jispa</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Jispa visit Kugumla pass O/N At hotel. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 8: Jispa to Leh</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Leh. Today a long drive . O/N at hotel.  </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 9: Leh Local</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel go to permit & half day local sight seeing. O/N At hotel. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 10: Leh to Khardungla Pass to leh</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Khardungla pass &back to leh. O/N at hotel. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 11: Leh to Panggong Lake & Back Leh</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Panghong lake. O/N at hotel. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 12: Leh to Jispa</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Jispa back. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 13: Jispa to Manali</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast at hotel drive to Manali Via Rohtang pass O/N At hotel. </p>
+                            </details>
+                            <details class="w-full border rounded-lg">
+                                <summary class="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">Day 14:  Manali to Delhi Back to home</summary>
+                                <p class="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">After breakfast drive Back to Delhi by Bus onwards journey to home. </p>
+                            </details>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="border border-black rounded-2xl px-8 md:ml-4 h-[32rem] sticky top-24 mb-11">
+                    
+                    <div class="pt-6 pb-6 max-w-md mx-auto">
+                    <h3 class="text-xl font-medium mb-4">Book Your Ride</h3>
+                    <p class="text-base w-[80%]">Drop us a message to know more about your adventure</p>
+                    </div>
+                    
+                    
+                    <div class="py-8 ">
+                        <form class="max-w-md mx-auto">
+                        <div class="grid md:grid-cols-2 md:gap-6">
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                            <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Full name</label>
+                        </div>     
+                        </div>
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                            <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                        </div>
+                        <div class="grid md:grid-cols-2 md:gap-6">
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="tel" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                            <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone number</label>
+                        </div>
+                        </div>
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                            <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                        </div>
+                        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                        </form>
+                    </div>
+
+                    
+                </div>           
+        </div>
+                 
+    </section>
+
+    <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+    
+            <div class="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:grid-cols-3 lg:max-w-full">
+                <div class="overflow-hidden bg-white rounded shadow">
+                    <div class="p-5">
+                        <div class="relative">
+                            <a href="../../bike-rides/rides/shimla-leh-manali.html" title="" class="block aspect-w-4 aspect-h-3">
+                                <img class="object-cover w-full h-full" src="../../img/manali-tour.png" alt="" />
+                            </a>
+    
+                            <div class="absolute top-4 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#E44E6C] rounded-full"> starting From - 13,500 </span>
+                            </div>
+                            <div class="absolute top-16 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#013A6F] rounded-full"> 13 Days </span>
+                            </div>
+                        </div>
+                        <p class="mt-5 text-3xl text-center font-semibold">
+                            <a href="../../bike-rides/rides/shimla-leh-manali.html" title="" class="text-black"> Manali Motorcycle Tour </a>
+                        </p>
+                        <p class="mt-4 text-center text-xl text-gray-600">Shimla - Leh - Manali </p>
+                    </div>
+                    <div class="flex justify-center content-center">
+                        <a href="../../bike-rides/rides/shimla-leh-manali.html" class="bg-[#3B7ECD] text-white align-middle border-black px-4 py-2 rounded-lg mb-6 hover:bg-[#3b7fcda7]">Details</a>
+                    </div>
+                </div>
+    
+                <div class="overflow-hidden bg-white rounded shadow">
+                    <div class="p-5">
+                        <div class="relative">
+                            <a href="../../bike-rides/rides/dharamshala-jispa-leh.html" title="" class="block aspect-w-4 aspect-h-3">
+                                <img class="object-cover w-full h-full" src="../../img/ladakh-tour-1.png" alt="" />
+                            </a>
+    
+                            <div class="absolute top-4 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#E44E6C] rounded-full"> starting From - 13,500 </span>
+                            </div>
+                            <div class="absolute top-16 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#013A6F] rounded-full"> 13 Days </span>
+                            </div>
+                        </div>
+                        <p class="mt-5 text-3xl text-center font-semibold">
+                            <a href="../../bike-rides/rides/dharamshala-jispa-leh.html" title="" class="text-black"> Ladakh Motorcycle Tour </a>
+                        </p>
+                        <p class="mt-4 text-center text-xl text-gray-600">Dharamshala - Jispa - Leh </p>
+                    </div>
+                    <div class="flex justify-center content-center">
+                        <a href="../../bike-rides/rides/dharamshala-jispa-leh.html" class="bg-[#3B7ECD] text-white align-middle border-black px-4 py-2 rounded-lg mb-6 hover:bg-[#3b7fcda7]">Details</a>
+                    </div>
+                </div>
+    
+                <div class="overflow-hidden bg-white rounded shadow">
+                    <div class="p-5">
+                        <div class="relative">
+                            <a href="../../bike-rides/rides/birbilling-leh-manali.html" title="" class="block aspect-w-4 aspect-h-3">
+                                <img class="object-cover w-full h-full" src="../../img/ladakh-tour-2.png" alt="" />
+                            </a>
+    
+                            <div class="absolute top-4 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#E44E6C] rounded-full"> starting From - 13,500 </span>
+                            </div>
+                            <div class="absolute top-16 left-4">
+                                <span class="px-4 py-2 text-xs font-semibold tracking-widest text-white uppercase bg-[#013A6F] rounded-full"> 13 Days </span>
+                            </div>
+                        </div>
+                        <p class="mt-5 text-3xl text-center font-semibold">
+                            <a href="../../bike-rides/rides/birbilling-leh-manali.html" title="" class="text-black"> Ladakh Motorcycle Tour </a>
+                        </p>
+                        <p class="mt-4 text-center text-xl text-gray-600">Bir Billing - Manali - Leh </p>
+                    </div>
+                    <div class="flex justify-center content-center">
+                        <a href="../../bike-rides/rides/birbilling-leh-manali.html" class="bg-[#3B7ECD] text-white align-middle border-black px-4 py-2 rounded-lg mb-6 hover:bg-[#3b7fcda7]">Details</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex items-center justify-center mt-8 space-x-3 lg:hidden">
+                <button type="button" class="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+    
+                <button type="button" class="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer container -->
+    <footer
+    class="bg-zinc-50 text-center text-surface/75 dark:bg-[#05203F] dark:text-white/75 lg:text-left bottom-0">
+    <div
+    class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
+    <div class="me-12 hidden lg:block">
+        <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Social network icons container -->
+    <div class="flex justify-center">
+        <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 320 512">
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+            <path
+            d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+        </svg>
+        </a>
+        <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4 ">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 512 512">
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+            <path
+            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+        </svg>
+        </a>
+        <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 488 512">
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+            <path
+            d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+        </svg>
+        </a>
+        <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 448 512">
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+            <path
+            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+        </svg>
+        </a>
+        <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 448 512">
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+            <path
+            d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+        </svg>
+        </a>
+        <a href="#!" class="[&>svg]:h-4 [&>svg]:w-4">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 496 512">
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+            <path
+            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+        </svg>
+        </a>
+    </div>
+    </div>
+
+    <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. -->
+    <div class="mx-6 py-10 text-center md:text-left">
+    <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <!-- TW Elements section -->
+        <div class="">
+        <div class="mb-4 flex items-center justify-center font-semibold uppercase">
+            <img class="w-40 h-14" src="../../img/Logo.png" alt="The Himachal Valley Logo">
+            <!-- The Himachal Valley -->
+        </div>
+        <p class="text-center">
+            With over 20 years of experience in curating unforgettable adventures, our bike tour agency is your trusted companion in exploring the mesmerizing valleys of Himachal Pradesh.
+        </p>
+        </div>
+        <!-- Products section -->
+        <div>
+        <h6
+            class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            Site Map
+        </h6>
+        <p class="mb-4">
+            <a href="../../home.html">Home</a>
+        </p>
+        <p class="mb-4">
+            <a href="../../bike-rides/bike-riding.html">Bike Riding</a>
+        </p>
+        <p class="mb-4">
+            <a href="../../tours/tours.html">Tours</a>
+        </p>
+        <p>
+            <a href="../../about-us.html">About Us</a>
+        </p>
+        </div>
+        <!-- Useful links section -->
+        <div>
+        <h6
+            class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            Bike Rides
+        </h6>
+        <p class="mb-4">
+            <a href="../../bike-rides/rides/dharamshala-jispa-leh.html">Ladakh</a>
+        </p>
+        <p class="mb-4">
+            <a href="../../bike-rides/rides/shimla-leh-manali.html">Manali</a>
+        </p>
+        <p class="mb-4">
+            <a href="../../bike-rides/rides/birbilling-leh-manali.html">Bir Billing</a>
+        </p>
+        </div>
+        <!-- Contact section -->
+        <div>
+        <h6
+            class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            Contact
+        </h6>
+        <p class="mb-4 flex items-center justify-center md:justify-start">
+            <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                <path
+                d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+            </svg>
+            </span>
+            Brij Mohan niwas airport road, Totu, Shimla, Himachal Pradesh, 171005
+        </p>
+        <p class="mb-4 flex items-center justify-center md:justify-start">
+            <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                <path
+                d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+            </svg>
+            </span>
+            thehimachalvalley@gmail.com
+        </p>
+        <p class="mb-4 flex items-center justify-center md:justify-start">
+            <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                fill-rule="evenodd"
+                d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                clip-rule="evenodd" />
+            </svg>
+            </span>
+            +91 78078 90407
+        </p>
+        
+        </div>
+    </div>
+    </div>
+
+    <!--Copyright section-->
+    <div class="bg-[#031C39] p-6 text-center">
+    <span>© 2024 Copyright. All rights reserved:</span>
+    <a class="font-semibold" href="https://thehimachalvalley.com/"
+        >The Himachal Valley</a>
+    </div>
+    <div class="bg-[#031C39] p-6 text-center">
+        <a class="font-semibold" href="https://digitcrib.com/"
+            >Made by DigitCrib</a>
+    </div>
+    </footer>
+    
+
+     <script src="../script.js"></script>
+</body>
+</html>
+
 </body>
 </html>
